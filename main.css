@@ -108,6 +108,31 @@ a:hover {
     }
 }
 
+.paragrafo {
+  float: right;
+}
+
+.floatingbox {
+  display: inline-block;
+  width: 150px;
+  height: 75px;
+  margin: 10px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.floatingbox1 {
+  float: left;*/
+  display: inline-block;
+  width: 150px;
+  height: 75px;
+  margin: 10px;
+}
+
 .hero-brand {
     margin-bottom: 75px;
     display: inline-block;
